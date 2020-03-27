@@ -1,5 +1,7 @@
 # <a href="https://covid19viz.github.io">https://covid19viz.github.io</a>
-<br>COVID-19 Interactive Data Visualization
+# COVID-19 Interactive Data Visualization
+![Chart showing COVID-19 Data Visualization](Covid19.png "COVID-19 Data Visualization")
+
 <br>Design: #VizbyArcher
 
 ### How Fast Is COVID-19 Virus Spreading in Your Area?
