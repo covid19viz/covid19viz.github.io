@@ -1,4 +1,4 @@
-# <a href="covid19viz.github.io">covid19viz.github.io</a>
+# <a href="https://covid19viz.github.io">https://covid19viz.github.io</a>
 <br>COVID-19 Data Visualization
 <br>Design: #VizbyArcher
 
