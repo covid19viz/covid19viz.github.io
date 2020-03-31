@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.4">
+        <title>COVID-19 Viz</title>
+        <style>
+            body {
+            display: block;
+            font-family: Helvetica, Arial, sans-serif;
+            overflow: visible;
+            overflow-wrap: break-word;
+            box-sizing: border-box;
+            text-align: justify;
+            text-justify: inter-word;
+            line-height: 1.42857;
+            
+            }
+            .bk-root {
+            max-width: 920px;
+            margin: auto;
+            padding: 5px;
+            }
+            /* unvisited link */
+            a:link {
+            color:#515151
+            }
+            /* visited link */
+            a:visited {
+            color: #515151;
+            }
+            /* mouse over link */
+            a:hover {
+            color:#515151
+            }
+            /* selected link */
+            a:active {
+            color:#515151
+            } 
+        </style>
+    </head>
+    <body>
+        <div class="bk-root">
+            <div style="position: relative; top:5px; left:0px;">
+                            <p style="display:block; margin-right:auto; margin-left:auto;">
+                                <span style="color:black; font-size:calc(16px + 1.5vmin); font-weight: 600;">
+                                   How Fast Is COVID-19 Virus Spreading in Your Area?
+                                </span>
+                            </p>
+                            <p style="display:block; margin-right:auto; margin-left:auto;">
+                                <div style="color:#515151; font-size:calc(16px + 0.5vmin); font-weight: 300; text-align: justify; text-justify: inter-word;">
+                                   <span style="color:black; font-weight: 600;">Regional Daily Updated Tracker</span> of the spreading curves for confirmed cases of COVID-19 Coronavirus in some of the most affected areas, ordered on the X axis by the number of days passed since the probable date of the first confirmed case, and showing on the Y axis the normalized value of confirmed cases per 100,000 inhabitants in that area.
+                                   <br>The colors of the plot lines are differentiated by country (<span style="color:#de2910;font-weight: 700;">China</span>, <span style="color:#393a3c;font-weight: 700;">Korea</span>, <span style="color:#244d4f;font-weight: 700;">Iran</span>, <span style="color:#008c45;font-weight: 700;">Italy</span>, <span style="color:#ff9821;font-weight: 700;">Spain</span>, <span style="color:#6a0d18;font-weight: 700;">Germany</span>, <span style="color:#3c3b6e;font-weight: 700;">U.S.A.</span>) and the size of the final dot point of the plot line is based on the absolute value of total number of cases confirmed to date.
+                                   <br>Plot lines for areas with highest number of confirmed cases per 100,000 inhabitants are labeled. 
+                                   <br><span style="color:black; font-style:italic; font-size:16px;">Latest update: 31 March 2020</span> 
+                                </div>
+                            </p>  
+                        </div>
+            <div style="font-style:italic;color:#515151;font-size:calc(16px + 0.5vmin);font-weight: 700;"> 
+                <a href="Covid19Confirmed.html"> Click here</a> for the interactive version (warning: wait few seconds for the page to load)
+                </div>
+            <div> 
+                <a href="Covid19Confirmed.html">
+                    <img src="Covid19Confirmed.png" alt="Covid19 Confirmed Cases Chart" width=920> 
+                    </a>
+                <video autoplay loop muted playsinline src="Covid19Confirmed.mp4" poster="Covid19Confirmed.png" width=920 controls></video>
+                <img src="Covid19Confirmed.gif" alt="Covid19 Confirmed Cases Chart" width=920>
+                
+            </div>
+            <div style="position: relative; top:5px; left:0px;">
+                            <p style="display:block; margin-right:auto; margin-left:auto;">
+                                <span style="color:#515151; font-size:calc(16px + 0.5vmin); font-weight: 300;">
+                                   <span style="color:black; font-weight: 600;">Design: @VizbyArcher &copy; covid19viz.github.io</span> 
+                                </span>
+                            </p> 
+                            <p style="display:block; margin-right:auto; margin-left:auto;">
+                                <span style="color:#515151; font-size:calc(16px + 0.5vmin); font-weight: 300;">
+                                   Covid19 Data Sources:
+                                   <br>&nbsp;&nbsp;&nbsp;&nbsp;China: <a href="https://github.com/BlankerL/DXY-COVID-19-Data/">https://github.com/BlankerL/DXY-COVID-19-Data/</a> 
+                                   <br>&nbsp;&nbsp;&nbsp;&nbsp;Korea: <a href="https://github.com/parksw3/COVID19-Korea">https://github.com/parksw3/COVID19-Korea</a> 
+                                   <br>&nbsp;&nbsp;&nbsp;&nbsp;Italy: <a href="https://github.com/pcm-dpc/COVID-19">https://github.com/pcm-dpc/COVID-19</a>
+                                   <br>&nbsp;&nbsp;&nbsp;&nbsp;Iran: <a href="https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Iran">https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Iran</a>
+                                   <br>&nbsp;&nbsp;&nbsp;&nbsp;Spain: <a href="https://github.com/datadista/datasets">Datadista.com</a>
+                                   <br>&nbsp;&nbsp;&nbsp;&nbsp;Germany: <a href="https://github.com/swildermann/COVID-19">https://github.com/swildermann/COVID-19</a>
+                                   <br>&nbsp;&nbsp;&nbsp;&nbsp;U.S.A.: <a href="https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html">The New York Times</a>&nbsp;-&nbsp;<a href="https://github.com/nytimes/covid-19-data">https://github.com/nytimes/covid-19-data</a>
+                                   <br>Population and Other Sources:
+                                   <br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.citypopulation.de/">CityPopulation.de</a> 
+                                   <br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>
+                                   <br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.istat.it/en/">Istat</a>
+                                   <br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.census.gov/en.html">U.S. Census Bureau</a>
+                                </span>
+                            </p> 
+                        </div>
+        </div>
+    </body>
+</html>
